@@ -1,11 +1,26 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
+var votingAge = 18
+if (votingAge >= 18)
+{
+    {
+        console.log(true)
+    }
+}
 
 
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
+var crazyVar=1
+if (votingAge = 18)
+{
+    {
+       crazyVar=23; console.log(crazyVar)
+    }
+    
+}
 
 
 
@@ -19,14 +34,18 @@
 
 //Task d: Write a function to multiply a*b 
 
-
-
-
+let a = 5
+let b = 8
+result = a*b
+console.log(result)
 
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-
+let meAge = 18
+let dogYear = 7
+result = meAge*dogYear
+console.log(result)
 
 
 
@@ -48,19 +67,71 @@
 // 7 - 12 months 4% of their body weight
 
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
-  
-
-
-
-
+  let dogAge = "1 year"
+  let dogWeight = 15
+  var dogFood
+  if (dogAge => "1 year")
+  {
+      {
+         if (dogWeight<=5)
+         {
+             {
+                dogFood = dogWeight*.05
+             }
+         }
+         if ((dogWeight >= 6 ) && (dogWeight<= 10 ))
+         {
+             {
+                 dogFood = dogWeight*.04
+             }
+         }
+         if ((dogWeight >= 11 ) && (dogWeight<= 15 ))
+         {
+             {
+                 dogFood = dogWeight*.03
+             }
+         }
+         if (dogWeight > 15 )
+         {
+             {
+                 dogFood = dogWeight*.02
+             }
+         }
+      }
+  }
+  console.log(dogFood)
+  if (dogAge < "1 year")
+  {
+      {
+        if ((dogAge>= "2 months") && (dogAge<= "4 months"))
+        {
+            {
+                dogFood = dogWeight*.1
+            }
+        }
+        if ((dogAge>= "5 months") && (dogAge<= "7 months"))
+        {
+            {
+                dogFood = dogWeight*.05
+            }
+        }
+        if ((dogAge>= "8 months") && (dogAge<= "12 months"))
+        {
+            {
+                dogFood = dogWeight*.04
+            }
+        }
+      }
+  }
+  console.log(dogFood)
 /************************************************************** Task 4 **************************************************************/
-// Rock, Paper, Sissors
-// Your function should take a string (either rock paper or sissors)
+// Rock, Paper, Scissors
+// Your function should take a string (either rock paper or scissors)
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
 
-  
+  functionRPS
   
 
 /************************************************************** Task 5 **************************************************************/
@@ -109,7 +180,7 @@
 
 
 /************************************************************** Stretch **************************************************************/
-//Take Rock, Paper, Sissors further
+//Take Rock, Paper, Scissors further
 //update your rock papers sissors code below to take a prompt from a user using the window object
 
 
